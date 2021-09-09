@@ -64,7 +64,7 @@ header{
   width: 100%;
   position: fixed;
   z-index: 1000;
-  background-color: var(--white-color);
+  background-color: var(--body-color);
 }
 
 .header{
