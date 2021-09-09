@@ -122,10 +122,15 @@ nav{
   right: -1020px;
   position: fixed;
   z-index: 111111;
+  transition: all 0.4s ease;
 }
 
 .cev #dark-light{
   right: -1180px;
+}
+
+.cev #dark-light .dark-btn{
+  transform: rotateZ(90deg);
 }
 
 .dark-div{
@@ -133,20 +138,45 @@ nav{
   height: 106px;
   background-color: #495FEF;
   overflow: hidden;
+  border-bottom-left-radius: 25px;
+}
+
+.dark-div-btn{
+  position: absolute;
+  width: 30px;
+  height: 50px;
+  top: 0px;
+  left: -10px;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background-color: #495FEF;
 }
 
 .dark-btn{
   position: absolute;
   background-image: url('../img/down.svg');
-  transform: rotateZ(-90deg);
-  width: 50px;
-  height: 30px;
   background-repeat: no-repeat;
-  background-position: top 1px left 12px;
   border: none;
+  background-position: left 10px top 0;
+  width: 45px;
+  height: 30px;
   top: 9px;
-  left: -20px;
+  left: -5px;
+  transform: rotateZ(-90deg);
+  background-color: transparent;
   cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.dark-text{
+  color: rgb(255, 255, 255);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: -0.09px;
+  padding-bottom: 8px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 
 .darks-btn1{
@@ -160,6 +190,7 @@ nav{
   letter-spacing: 1.38px;
   text-transform: uppercase;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 .darks-btn2{
