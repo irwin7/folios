@@ -500,3 +500,21 @@ nav{
   padding-left: 1.25rem;
   transform: rotateY(180deg);
 }
+
+/* Footer======================*/
+.footer{
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+}
+
+.footer__inner{
+  text-align: center;
+}
+
+.footer__title{
+  font-size: 0.8125rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  line-height: 1;
+  color: var(--global-color);
+}
