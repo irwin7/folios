@@ -99,21 +99,12 @@ nav{
   padding: 18px !important;
 
 }
-
 .downb{
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
 }
-
-.downb::after{
-  content: "";
-  display: inline-block;
-  background-image: url('../img/down.svg');
-  font-size: 24px;
-  width: 24px;
-  height: 24px;
+.downb i{
+  font-size: 14px;
   margin-left: 10px;
 }
 
@@ -130,7 +121,7 @@ nav{
 }
 
 .cev #dark-light .dark-btn{
-  transform: rotateZ(90deg);
+  transform: rotateZ(180deg);
 }
 
 .dark-div{
@@ -155,18 +146,18 @@ nav{
 
 .dark-btn{
   position: absolute;
-  background-image: url('../img/down.svg');
-  background-repeat: no-repeat;
+  font-size: 20px;
+  transform: rotateZ(0deg);
   border: none;
-  background-position: left 10px top 0;
   width: 45px;
   height: 30px;
   top: 9px;
   left: -5px;
-  transform: rotateZ(-90deg);
+  font-weight: normal;
   background-color: transparent;
   cursor: pointer;
   transition: all 0.4s ease;
+  color: #fff;
 }
 
 .dark-text{
@@ -239,6 +230,13 @@ nav{
   background-color: rgb(73, 95, 239);
   transition: all 0.4s ease-out 0s;
   outline: none !important;
+  display: flex;
+  align-items: center;
+  width: 235px;
+}
+.hero-btn i{
+  font-size: 20px;
+  margin-left: 15px;
 }
 
 .hero-btn:hover{
@@ -246,7 +244,7 @@ nav{
   box-shadow: rgb(3 3 3 / 14%) 0px 32px 54px;
 }
 
-.hero-btn::after{
+/* .hero-btn::after{
   content: "";
   display: inline-block;
   background-image: url('../img/right.svg');
@@ -256,7 +254,7 @@ nav{
   padding-left: 45px;
   background-repeat: no-repeat;
   background-position: top -1px left 20px;
-}
+} */
 
 .hero-text{
   font-size: 0.8125rem;
