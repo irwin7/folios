@@ -207,6 +207,10 @@ nav{
   position: relative;
 }
 
+#hero .container{
+  width: 1180px;
+}
+
 .hero-btn{
   font-size: 13px;
   font-weight: 700;
@@ -255,6 +259,10 @@ nav{
   background-repeat: no-repeat;
   background-position: top -1px left 20px;
 } */
+
+.hero-texts{
+  width: 635px;
+}
 
 .hero-text{
   font-size: 0.8125rem;
